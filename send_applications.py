@@ -280,7 +280,7 @@ def main():
             formatted_subject = base_subject
         # If the original template didn't include {company} and we have a company, append it for clarity
         if '{company}' not in base_subject and company:
-            subject_for_recipient = f"{formatted_subject} — {company}"
+            subject_for_recipient = f"{formatted_subject} {company}"
         else:
             subject_for_recipient = formatted_subject
 
