@@ -1,0 +1,17 @@
+requests
+beautifulsoup4
+playwright
+python-dotenv
+socket
+csv
+json
+os
+re
+collections
+defaultdict
+time
+argparse
+smtplib
+ssl
+email.message
+typing
